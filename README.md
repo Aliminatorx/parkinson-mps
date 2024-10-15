@@ -15,20 +15,20 @@ matlab.mat: Contains raw LFP recordings from 12 Parkinson's Disease patients, sa
 lfp0: Baseline recordings (before DBS stimulation).
 lfp2: Post-DBS stimulation recordings.
 motor_performance_change: Percentage change in motor score, the target variable for prediction.
-#### Data Preprocessing
+### Data Preprocessing
 Filtering: LFP signals were bandpass filtered between 13-30 Hz to isolate the beta frequency band, a known biomarker in Parkinson’s Disease.
-#### Feature Extraction:
+### Feature Extraction:
 Beta Power Difference (power_diff): Difference in beta power between lfp0 and lfp2.
 Beta Power Stability (beta_power_stab_lfp0): Stability of beta power during baseline (lfp0).
 Data Splitting: The preprocessed data was stored in data_df, ready for training machine learning models.
-#### Model Training
+### Model Training
 The preprocessed features were used to train various machine learning models to predict motor score changes:
 
 Random Forest Regressor: Achieved an accuracy of 92.7%.
 XGBoost Regressor: Achieved an accuracy of 91.8%.
 Ensemble Learning: Achieved the best performance with an accuracy of 92.9%.
 Other models include Decision Tree, Gradient Boosting, Support Vector Regression (SVR), and Linear Regression.
-#### Results
+### Results
 The models were evaluated using metrics such as:
 
 Accuracy: Overall prediction performance.
@@ -36,7 +36,7 @@ Mean Squared Error (MSE): Measures the average squared difference between actual
 R² Score: Coefficient of determination, representing the goodness of fit for the model.
 The Random Forest and Ensemble models yielded the highest accuracy, with a significant reduction in error compared to other models.
 
-#### How to Run
+## How to Run
 Clone the repository and load the matlab.mat file for raw EEG recordings.
 Run the parkinson.ipynb notebook to preprocess the data and train machine learning models.
 The notebook includes steps for filtering, feature extraction, model training, and evaluation.
