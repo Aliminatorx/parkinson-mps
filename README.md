@@ -1,7 +1,3 @@
-Here’s the formatted README content with proper bullet points:
-
----
-
 # Predicting Motor Score Changes Using LFP Signals in Parkinson's Disease
 
 This project aims to predict changes in motor performance (pre- and post-Deep Brain Stimulation [DBS]) using Local Field Potential (LFP) recordings from Parkinson's Disease patients. The dataset consists of LFP signals from 12 patients, each sampled at 250 Hz under two conditions: baseline and post-DBS stimulation.
