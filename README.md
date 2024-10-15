@@ -39,5 +39,5 @@ The Random Forest and Ensemble models yielded the highest accuracy, with a signi
 ## How to Run
 Clone the repository and load the patient_data.mat file for raw EEG recordings.
 Run the parkinson.ipynb notebook to preprocess the data and train machine learning models.
-Filteration process were done matlab, you can go through matlab folder for filteration and feature extraction code.
+Filteration and feature extraction was done in matlab, you can go through matlab folder for filteration and feature extraction code.
 The notebook includes steps for data splitting, model training, and evaluation.
