@@ -11,7 +11,7 @@ Machine learning code, feature extraction scripts, and detailed analysis are pro
 This project focuses on predicting motor score changes in Parkinson's Disease patients using Local Field Potential (LFP) EEG recordings. The dataset consists of recordings collected before and after Deep Brain Stimulation (DBS) and includes relevant features for prediction.
 
 ### Dataset
-matlab.mat: Contains raw LFP recordings from 12 Parkinson's Disease patients, sampled at 250 Hz. Each patient has multiple trials recorded under two conditions:
+patient_data.mat: Contains raw LFP recordings from 12 Parkinson's Disease patients, sampled at 250 Hz. Each patient has multiple trials recorded under two conditions:
 lfp0: Baseline recordings (before DBS stimulation).
 lfp2: Post-DBS stimulation recordings.
 motor_performance_change: Percentage change in motor score, the target variable for prediction.
@@ -37,6 +37,6 @@ R² Score: Coefficient of determination, representing the goodness of fit for th
 The Random Forest and Ensemble models yielded the highest accuracy, with a significant reduction in error compared to other models.
 
 ## How to Run
-Clone the repository and load the matlab.mat file for raw EEG recordings.
+Clone the repository and load the patient_data.mat file for raw EEG recordings.
 Run the parkinson.ipynb notebook to preprocess the data and train machine learning models.
 The notebook includes steps for filtering, feature extraction, model training, and evaluation.
