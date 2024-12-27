@@ -52,7 +52,7 @@ The **Random Forest** and **Ensemble models** yielded the highest accuracy, with
 
 ## How to Run
 
-1. Clone the repository and load the `patient_data.mat` file for raw EEG recordings.
+1. Clone the repository and load the `patient_data.mat` file for raw LFP recordings.
 2. Run the `parkinson.ipynb` notebook to preprocess the data and train machine learning models.
 3. **Filtering and Feature Extraction**: These steps were performed in MATLAB. The code for filtering and feature extraction can be found in the MATLAB folder.
 4. The notebook includes steps for data splitting, model training, and evaluation.
